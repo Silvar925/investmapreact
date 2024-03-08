@@ -1,0 +1,27 @@
+.infoPanel {
+    display: flex;
+}
+
+.tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.tittle h2 {
+    font-family: 'Montserrat';
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.infoContainer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: var(--alter-main-color);
+}

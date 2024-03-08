@@ -1,0 +1,82 @@
+.sidebar {
+    display: flex;
+    padding: 10px 20px;
+    width: 310px;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: var(--main-color);
+}
+
+.regionsBox {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.regionsBox h2 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav ul h2 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: white;
+}
+
+.buttonsBox {
+    display: flex;
+    gap: 10px;
+}
+
+.profileBox {
+    background-color: var(--background-color-page);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.profileBox img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.profileInfo h2 {
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+.profileInfo p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+
+@media (min-width: 320px) and (max-width: 435px) {
+    .sidebar {
+        display: none;
+    }
+}

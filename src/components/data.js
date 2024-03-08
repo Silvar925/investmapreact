@@ -1,3 +1,5 @@
+import { electricitySupply } from "./dataBase.js"
+
 export const typeObjects = {
     participants: 'Участки',
     buildings: 'Здания',
@@ -20,3 +22,11 @@ export const typeObjects = {
 export const listRegion = ['Черкесск', 'Карачаевсск', 'Карачаевский район', 'Усть - Джегутинский район', 'Абазинский район', 'Адыге - Хабльский район', 'Зеленчукский район', , 'Малокарачаевсктй район',
     'Ногайский район', 'Прикубанский район', 'Урупский район', 'Хабезский район'
 ]
+
+export const allObjects = {
+    electricitySupply: {
+        electricitySupply: electricitySupply,
+        onMarker: 'icons/PowerSupply_on.svg',
+        offMarker: 'icons/PowerSupply_off.svg'
+    }
+}

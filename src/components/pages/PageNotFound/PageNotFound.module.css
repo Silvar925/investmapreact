@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--main-color);
+}
+
+.container h1 {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.container h2 {
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.button {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: black;
+}

@@ -1,12 +1,25 @@
 .infoPanel {
+    padding: 0px 10px;
+    position: fixed;
+    gap: 10px;
+    right: 0;
+    width: 350px;
+    height: 100%;
+    background-color: #F1F6FF;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
 }
 
 .tittle {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    padding: 10px;
+    height: 50px;
     align-items: center;
     background-color: white;
+    justify-content: space-between;
 }
 
 .tittle h2 {
@@ -22,6 +35,6 @@
 .infoContainer {
     display: flex;
     gap: 10px;
+    width: 100%;
     flex-direction: column;
-    background-color: var(--alter-main-color);
 }

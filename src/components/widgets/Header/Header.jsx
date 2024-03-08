@@ -40,7 +40,7 @@ export const Header = ({ authorization }) => {
 
                     ) : (
                         <div className={styles.temp}>
-                            <Link to="/userProfile"><img src="icons/profile.svg" alt="userProfilePage" />{textProfile === true ? 'Личный кабинет' : ''}</Link>
+                            <Link to="/authentication"><img src="icons/profile.svg" alt="userProfilePage" />{textProfile === true ? 'Личный кабинет' : ''}</Link>
                         </div>
                     )
                 }
